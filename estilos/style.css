@@ -69,3 +69,20 @@ main > article > p{
    margin: auto;
    border-radius: 2px 2px 0px;
 }
+footer{
+    background-color: rgba(139, 218, 36, 0.726);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 5px;
+
+}
+footer a{
+  color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: white;
+    color: black;
+   
+}
