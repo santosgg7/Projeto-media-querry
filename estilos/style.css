@@ -19,7 +19,8 @@ display: block;
 span#burger{
     text-align: center;
     display: block;
-    padding-bottom: 5px;
+    padding: 10px;
+    background-color: gray;
 }
 span#burger:hover{
     cursor: pointer;
@@ -27,7 +28,7 @@ span#burger:hover{
 menu{
     display:none;
    
-    background-color: rgb(156, 156, 156);
+  
 }
  
 menu > ul > li {
@@ -36,12 +37,15 @@ menu > ul > li {
     padding: 10px;
     border-bottom: 1px solid rgb(245, 245, 245);
     display: block;
+    background-color: gray;
    
 }
 menu > ul > li > a{
     color: black;
     text-decoration: none;
-    font-weight: bold;
+   
+    display: block;
+    background-color: gray;
 }
 menu a:hover{
     background-color: rgb(133, 133, 133);
@@ -50,27 +54,23 @@ menu a:hover{
     padding: 10px;
 }
 main{
-   
-    padding-top: 10px;
-}
-main > article > h2{
-background-color: lightgray;
-padding: 10px;
- background-color: rgb(107, 107, 107);
- color: white;
-
-}
-main > article > p{
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.829);
-   text-indent: 20px;
-   text-align: justify;
-   width: 90vw;
    margin: auto;
-   border-radius: 2px 2px 0px;
+    padding-top: 20px;
+     background-color: rgba(255, 255, 255, 0.829);
+   border-radius: 10px 10px 0px;
+     width: auto;
+}
+main h2{
+    padding-bottom: 10px;
+}
+   
+main > article > p{
+   text-align: justify;
+   text-indent: 20px;
+   
 }
 footer{
-    background-color: rgba(139, 218, 36, 0.726);
+    background-color: rgba(68, 78, 55, 0.726);
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
